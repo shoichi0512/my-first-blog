@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-5)=lde@5hdr&c^_eao=)elg9=h2yncwb27ep@nbbzc)xl-u#f%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
-
+ALLOWED_HOSTS = ['127.0.0.1', 'ventvelt.pythonanywhere.com']
 
 # Application definition
 
@@ -121,7 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = [
-    os.path.join(BASE_DIR, "static"),
+    BASE_DIR, "static",
 ]
 # test
 # Default primary key field type
